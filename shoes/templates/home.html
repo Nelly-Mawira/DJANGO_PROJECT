@@ -1,0 +1,25 @@
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+
+<a href='{% url 'about' %}'>ABOUT</a>
+<a href='{% url 'services' %}'>SERVICES</a>
+<a href='{% url 'contact' %}'>CONTACT US</a>
+
+<h2>This is my Home page.</h2>
+<p>Welcome to Django</p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At est neque perferendis quos velit. Aliquam asperiores autem dolorum est harum impedit minima porro praesentium, quis quod quos rem tempore veniam!</span><span>Animi beatae consequuntur delectus deleniti doloremque dolores ducimus enim, eum ex exercitationem impedit iure laborum, maxime mollitia necessitatibus nulla quam quis quo reprehenderit suscipit temporibus totam velit. Deserunt, iste, veritatis.</span><span>Adipisci aliquam aliquid consequatur delectus dicta dolore earum enim error eum exercitationem expedita, impedit in incidunt ipsa itaque laboriosam magnam minus necessitatibus neque nostrum obcaecati officia perferendis quibusdam rerum, temporibus?</span><span>Autem doloremque error quam! Commodi iure, quia. Autem culpa dicta eos eveniet itaque iusto neque. Amet aspernatur atque error expedita explicabo, harum magni nostrum, quidem sed, similique sit tempore temporibus!</span><span>Autem odio perferendis praesentium vitae! Corporis cupiditate deleniti eos eveniet in labore laborum magnam, officia pariatur ratione recusandae tenetur. A aperiam doloribus maiores odit perferendis perspiciatis quis tempore vitae voluptatem.</span><span>At cum dicta dignissimos, dolorem doloremque ducimus ea enim in inventore laborum laudantium minus molestiae non numquam perferendis quas reprehenderit saepe, ullam velit veritatis. Consequuntur fuga modi officiis reprehenderit tempora.</span><span>Autem delectus dignissimos dolores eius et, facilis, ipsa laborum neque possimus ut vitae voluptatem. Amet aspernatur eligendi, eum harum hic id ipsum molestiae optio quasi quibusdam rem sed similique vel?</span></p>
+<img src="{% static 'images/image1.jpeg' %}" alt="">
+</body>
+</html>
